@@ -1,3 +1,25 @@
+1. Git install karo
+
+2. GitHub ka username aur email set karo:
+
+	git config --global user.name "Tumhara-Name"
+	git config --global user.email "tumhara-email@example.com"
+	
+3. create a project folder on a system and commond line setup on folder
+
+4. git init
+
+5. git repositry link to folder 
+
+	git remote add origin https://github.com/USERNAME/REPO-NAME.git
+	
+6. Branch ko main karo:
+
+	git branch -M main
+
+----------------Daily Workflow--------------------------------------------
+
+
 1. Git init (अगर पहली बार repo बना रहे हो)
 
 commond name : git init
@@ -27,3 +49,8 @@ commond : git commit -m "First commit - Monday Software project"
 6. GitHub पर push karo
 
 commond : git push -u origin main
+
+	
+	
+	
+

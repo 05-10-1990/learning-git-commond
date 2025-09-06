@@ -1,0 +1,29 @@
+1. Git init (अगर पहली बार repo बना रहे हो)
+
+commond name : git init
+
+2. Remote repo connect करो or git pr ek repositry tiyar kro
+
+repositry url = https://github.com/YOUR-USERNAME/monday-software.git
+
+commond : git remote add origin https://github.com/YOUR-USERNAME/monday-software.git
+
+2.1 अगर पहले से remote जुड़ा हुआ है तो उसे replace करने के लिए:
+
+git remote set-url origin https://github.com/YOUR-USERNAME/monday-software.git
+
+3. Branch को main सेट करो 
+
+git branch -M main
+
+4. Files add करो
+
+git add .
+
+5. Commit karo
+
+commond : git commit -m "First commit - Monday Software project"
+
+6. GitHub पर push karo
+
+commond : git push -u origin main
